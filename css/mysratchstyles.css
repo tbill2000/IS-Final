@@ -13,6 +13,13 @@ body {
     padding: 10px;
 }
 
+.header-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 40px; /* Adjust the size as needed */
+}
+
 .header h1 {
     margin: 0;
     color: #fff;
