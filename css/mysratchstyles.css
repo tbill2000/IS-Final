@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('http://wallsdesk.com/wp-content/uploads/2016/10/Snowboarding-Wallpapers-HD.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+nav a {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    width: 40%;
+    margin: 50px 5% 0 auto; /* Push content to the right, with margin from the top */
+    position: relative;
+}
+
+.tricks-list {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; /* Space between the tricks list and the video */
+}
+
+ol, ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 40vw; 
+    height: 40vw;
+    position: absolute;
+    right: 5%; /* Align to the right edge */
+    border-radius: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 90%;
+        margin: 50px 5% 0 auto; /* Adjusted for smaller screens */
+    }
+
+    iframe {
+        width: 90vw;
+        height: 90vw;
+        position: static;
+        margin-top: 20px; 
+    }
+}

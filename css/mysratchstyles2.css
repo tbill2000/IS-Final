@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('http://wallsdesk.com/wp-content/uploads/2016/10/Snowboarding-Wallpapers-HD.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+nav a {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.tableauPlaceholder {
+    width: 50%;
+    height: 50%;
+    margin: auto; /* Set margin to "auto" to horizontally and vertically center */
+    
+}
